@@ -1,0 +1,17 @@
+[project]
+name = "danbooru-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "google-api-python-client>=2.147.0",
+    "google-auth>=2.35.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.1",
+    "py-cord>=2.6.1",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "pytz>=2024.2",
+    "mysql-connector>=2.2.9",
+]
